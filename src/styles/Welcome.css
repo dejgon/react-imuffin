@@ -1,6 +1,6 @@
 .Welcome {
     height: 100vh;
-    background-image: url('../assets/images/welcome-background.jpg');
+    background-image: url('../assets/images/background2.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
@@ -39,8 +39,8 @@ h1 {
 .button {
     border: none;
     background: none;
-    border: 2px solid #B47D4F;
-    color: #B47D4F;
+    border: 2px solid #49993D;
+    color: #49993D;
     border-radius: 25px;
     padding: 1em 3em;
     transition: all 250ms;
@@ -48,6 +48,6 @@ h1 {
 }
 
 .button:hover {
-    border-color: #8F9889; 
-    color: #8F9889;
+    border-color: #AD9580; 
+    color: #AD9580;
 }

@@ -1,5 +1,6 @@
 import React from 'react';
 import Welcome from './pages/Welcome';
+import Home from './pages/Home';
 import './App.css';
 
 function App() {
@@ -7,9 +8,10 @@ function App() {
     <div className="App">
       <div className="App-header">
         <Welcome />
-        <header className="header">
+        <Home />
+        {/* <header className="header">
           <p>iMuffin<sup>&copy;</sup></p>
-        </header>
+        </header> */}
       </div>
     </div>
   );
