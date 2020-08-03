@@ -1,0 +1,53 @@
+.Welcome {
+    height: 100vh;
+    background-image: url('../assets/images/welcome-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.Welcome-header {
+    flex: 1;
+}
+
+h1 {
+    font-size: 90px;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    flex: 1;
+    align-content: space-between;
+}
+
+.box-elem {
+    flex: 1;
+    padding: .5em;
+    font-size: 120px;
+}
+
+.button-box {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+    border: none;
+    background: none;
+    border: 2px solid #B47D4F;
+    color: #B47D4F;
+    border-radius: 25px;
+    padding: 1em 3em;
+    transition: all 250ms;
+    font-size: 25px;
+}
+
+.button:hover {
+    border-color: #8F9889; 
+    color: #8F9889;
+}
