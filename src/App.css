@@ -3,16 +3,16 @@
 }
 
 .App-header {
-  background-color: #212120;
+  background-color: white;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: white;
+  color: black;
 }
 
 .header {
-  background: #4C5C68;
+  background: white;
   padding: 0 .5em;
   display: flex;
   flex-direction: row;

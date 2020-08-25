@@ -1,5 +1,6 @@
 import React from 'react';
 import '../styles/Welcome.css';
+import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee } from '@fortawesome/free-solid-svg-icons'
 
@@ -21,7 +22,9 @@ function Welcome() {
                 </div>
             </div>
             <div className="button-box">
-            <button className="button">Get in</button>
+                <Link to="/home">
+                    <button className="button">Get in</button>
+                </Link>
             </div>
         </div>
     );

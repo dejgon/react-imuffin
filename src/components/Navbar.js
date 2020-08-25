@@ -7,9 +7,9 @@ function Navbar() {
         <nav>
             <h1>iMuffin</h1>
             <div className="Navbar-navigation-bar">
-                <p className="Navbar-navigation-bar-elem"><Link to="/home">Home</Link></p>
-                <p className="Navbar-navigation-bar-elem"><Link to="/recipes">Recipes</Link></p>
-                <p className="Navbar-navigation-bar-elem"><Link to="/profile">Profile</Link></p>
+                <Link to="/home" style={{ textDecoration: 'none' }}><p className="Navbar-navigation-bar-elem">Home</p></Link>
+                <Link to="/recipes" style={{ textDecoration: 'none' }}><p className="Navbar-navigation-bar-elem">Recipes</p></Link>
+                <Link to="/profile" style={{ textDecoration: 'none' }}><p className="Navbar-navigation-bar-elem">Profile</p></Link>
             </div>
         </nav>
     );

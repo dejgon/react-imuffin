@@ -8,29 +8,32 @@ import {
 import Welcome from './pages/Welcome';
 import Home from './pages/Home';
 import Recipes from './pages/Recipes';
-import Profile from './pages/Profile';
+import Profile from './pages//profile/Profile';
+import Recipe from './pages/Recipe';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <div className="App-header">
-      <Router>
-        <Switch>
-          <Route path="/home">
-            <Home />
-          </Route>
-          <Route path="/recipes">
-            <Recipes />
-          </Route>
-          <Route path="/profile">
-            <Profile />
-          </Route>
-          <Route path="/">
-            <Welcome />
-          </Route>
-        </Switch>
-      </Router>
+        <Router>
+          <Switch>
+            <Route path="/home">
+              <Home />
+            </Route>
+            <Route path="/recipes/:id" children={<Recipe />} />
+            <Route path="/recipes">
+              <Recipes />
+            </Route>
+            
+            <Route path="/profile">
+              <Profile />
+            </Route>
+            <Route path="/">
+              <Welcome />
+            </Route>
+          </Switch>
+        </Router>
       </div>
     </div>
   );
