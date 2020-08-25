@@ -5,7 +5,6 @@ import Navbar from '../components/Navbar';
 function Recipes() {
     return (
         <div>
-            <Navbar />
             <p>Recipes page</p>
             <Link to="recipes/1">Recipe 1</Link>
         </div>

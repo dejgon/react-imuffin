@@ -3,20 +3,40 @@
 }
 
 .App-header {
-  background-color: white;
+  background-color: #EBEBEB;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
   font-size: calc(10px + 2vmin);
-  color: black;
+  color: #242325;
 }
 
 .header {
-  background: white;
+  background: #EBEBEB;
   padding: 0 .5em;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+}
+
+a {
+  color: black;
+}
+a:hover {
+  color: #DF9F68;
+}
+
+button {
+  border: 2px solid black;
+  border-radius: 25px;
+  padding: 10px;
+  background: transparent;
+  transition: all 300ms;
+}
+
+button:hover {
+  border-color: #DF9F68;
+  color: #DF9F68;
 }
 
 

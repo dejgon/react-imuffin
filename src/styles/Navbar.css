@@ -10,6 +10,7 @@ nav p {
 }
 
 nav h1 {
+    font-size: 50px;
     margin: 0;
     text-decoration: underline;
 }
@@ -29,5 +30,5 @@ nav h1 {
     transition: color 250ms;
 }
 .Navbar-navigation-bar-elem:hover {
-    color: #49993D;
+    /* color: #49993D; */
 }

@@ -7,11 +7,10 @@ import 'semantic-ui-css/semantic.min.css'
 function Profile() {
     return (
         <div>
-            <Navbar />
             <div className="profile">
                 <div className="profile__header">
                     <div className="profile__header__photo">
-                        photo here
+                        <img src="https://i.imgur.com/nif7ztU.jpg" />
                     </div>
                     <div className="profile__header__statistics">
                         <div className="profile__header__statistics__elem">

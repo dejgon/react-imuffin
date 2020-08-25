@@ -6,7 +6,6 @@ function Recipe() {
     const params = useParams();
     return (
         <div>
-            <Navbar />
             recipe page
              {params.id}
         </div>

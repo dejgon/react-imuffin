@@ -5,21 +5,20 @@ import Navbar from '../components/Navbar';
 
 function Home() {
 
-    useEffect(() => {
-        axios
-        .get("https://swapi.dev/api/people/1")
-            .then(
-                (result) => {
-                    console.log(result);
-                }
-            )
-            .catch(err => {
-                console.log(err);
-            })
-    })
+    // useEffect(() => {
+    //     axios
+    //     .get("https://swapi.dev/api/people/1")
+    //         .then(
+    //             (result) => {
+    //                 console.log(result);
+    //             }
+    //         )
+    //         .catch(err => {
+    //             console.log(err);
+    //         })
+    // })
     return (
         <div className="Home">
-            <Navbar />
             Home here
         </div>
     );
